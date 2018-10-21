@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208256409078",
+    "firebase_url": "https://moneyskills-83884.firebaseio.com",
+    "project_id": "moneyskills-83884",
+    "storage_bucket": "moneyskills-83884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208256409078:android:52057bf46b9beca0",
+        "android_client_info": {
+          "package_name": "com.project.jvvas.moneyskills"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208256409078-vqouibhflnl85dutujsjrcnjbooohjrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.jvvas.moneyskills",
+            "certificate_hash": "ecc7cfc881749db58b810dd3372d580cde6c4473"
+          }
+        },
+        {
+          "client_id": "208256409078-sn9od191duq736eqhhchl6r0q8meqe6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_xESC5-a2Y0MpqqOHSvv02aPuEqzwIVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208256409078-sn9od191duq736eqhhchl6r0q8meqe6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

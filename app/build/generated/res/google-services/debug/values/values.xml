@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">208256409078-sn9od191duq736eqhhchl6r0q8meqe6k.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://moneyskills-83884.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">208256409078</string>
+    <string name="google_api_key" translatable="false">AIzaSyA_xESC5-a2Y0MpqqOHSvv02aPuEqzwIVo</string>
+    <string name="google_app_id" translatable="false">1:208256409078:android:52057bf46b9beca0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA_xESC5-a2Y0MpqqOHSvv02aPuEqzwIVo</string>
+    <string name="google_storage_bucket" translatable="false">moneyskills-83884.appspot.com</string>
+    <string name="project_id" translatable="false">moneyskills-83884</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SingleMultiPlayer">
+
+    <ImageView
+        android:id="@+id/imageView_thirdHeart"
+        android:layout_width="31dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_secondHeart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <ImageView
+        android:id="@+id/imageView_secondHeart"
+        android:layout_width="31dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_thirdHeart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView_firstHeart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <ImageView
+        android:id="@+id/imageView_firstHeart"
+        android:layout_width="31dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_secondHeart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <TextView
+        android:id="@+id/textView_Coins"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Coins"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_Coins"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Coins" />
+
+    <ImageView
+        android:id="@+id/imageView_Coins"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coins" />
+
+    <ImageView
+        android:id="@+id/imageView_Profil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_image" />
+
+    <ImageView
+        android:id="@+id/imageView_Logo"
+        android:layout_width="210dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_Training"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/Logout_btn"
+        style="@style/button_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_Training"
+        style="@style/alpha_button_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Training"
+        app:layout_constraintBottom_toTopOf="@+id/button_SinglePlayer"
+        app:layout_constraintEnd_toEndOf="@+id/button_SinglePlayer"
+        app:layout_constraintStart_toStartOf="@+id/button_SinglePlayer" />
+
+    <Button
+        android:id="@+id/button_SinglePlayer"
+        style="@style/alpha_button_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Single player"
+        app:layout_constraintBottom_toTopOf="@+id/button_MultiPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/button_MultiPlayer"
+        style="@style/alpha_button_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Multi player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+
+</android.support.constraint.ConstraintLayout>

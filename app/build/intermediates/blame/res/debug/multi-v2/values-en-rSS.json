@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jvvas\\AndroidStudioProjects\\MoneySkills\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSS\\values-en-rSS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jvvas\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-mopub-3.1.1.aar\\aaab602da7eea1c9ad44ed23a4880e06\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,137",
+                        "endColumns": "81,75",
+                        "endOffsets": "132,208"
+                    },
+                    "to": {
+                        "startLines": "23,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "1092,1745",
+                        "endColumns": "81,75",
+                        "endOffsets": "1169,1816"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jvvas\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.1.1.aar\\408f7aae0e8baa1de147ca8e1bc7f55e\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,207,358,509,574,639,709,764,817,894,970,1027,1107,1234,1322,1388,1474",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "endColumns": "14,14,14,64,64,69,54,52,76,75,56,79,126,87,65,85,66",
+                        "endOffsets": "202,353,504,569,634,704,759,812,889,965,1022,1102,1229,1317,1383,1469,1536"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,15,16,17,20,21,24,25,26,27,28,29,30,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,207,358,585,650,715,924,979,1174,1251,1327,1384,1464,1591,1679,1821,1907",
+                        "endLines": "5,9,13,15,16,17,20,21,24,25,26,27,28,29,30,32,33",
+                        "endColumns": "14,14,14,64,64,69,54,52,76,75,56,79,126,87,65,85,66",
+                        "endOffsets": "202,353,504,645,710,780,974,1027,1246,1322,1379,1459,1586,1674,1740,1902,1969"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jvvas\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-composer-3.1.1.aar\\a2b77c65320cfa3361ea2f61639e5a6f\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,131,194",
+                        "endColumns": "75,62,59",
+                        "endOffsets": "126,189,249"
+                    },
+                    "to": {
+                        "startLines": "14,19,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "509,861,1032",
+                        "endColumns": "75,62,59",
+                        "endOffsets": "580,919,1087"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jvvas\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.1.1.aar\\69bcd5582dbb90aaff092677471391bc\\res\\values-en-rSS\\values-en-rSS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "785",
+                        "endColumns": "75",
+                        "endOffsets": "856"
+                    }
+                }
+            ]
+        }
+    ]
+}

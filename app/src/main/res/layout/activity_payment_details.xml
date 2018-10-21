@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentDetails">
+
+    <ImageView
+        android:id="@+id/imageView_Outline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_PaypalTitle"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/receipt_outline" />
+
+    <TextView
+        android:id="@+id/textView_Note"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:text="Note: Take a screenshot of your receipt if there is a problem"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Outline"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Outline"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Outline" />
+
+    <Button
+        android:id="@+id/button_OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="OK"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_GreyArea" />
+
+    <TextView
+        android:id="@+id/textView_HaveReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="You've received an invoice"
+        android:textColor="#263b80"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Outline"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Outline" />
+
+    <ImageView
+        android:id="@+id/imageView_GreyArea"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_BlueArea"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Outline"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/imageView_BlueArea"
+        app:srcCompat="@drawable/grey_area_receipt" />
+
+    <ImageView
+        android:id="@+id/imageView_BlueArea"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Outline"
+        app:layout_constraintTop_toBottomOf="@+id/textView_HaveReceived"
+        app:srcCompat="@drawable/blue_area_receipt" />
+
+    <ImageView
+        android:id="@+id/imageView_PaypalTitle"
+        android:layout_width="242dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paypal" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textView_Label1"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Invoice Number"
+        android:textAlignment="viewEnd"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Label2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_GreyArea"
+        app:layout_constraintTop_toTopOf="@+id/imageView_BlueArea" />
+
+    <TextView
+        android:id="@+id/textView_Label2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Date payment is due"
+        android:textAlignment="viewEnd"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Label3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Label1" />
+
+    <TextView
+        android:id="@+id/textView_Label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Amount"
+        android:textAlignment="viewEnd"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Label4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Label2" />
+
+    <TextView
+        android:id="@+id/textView_Label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Status"
+        android:textAlignment="viewEnd"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_BlueArea"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Label3" />
+
+    <TextView
+        android:id="@+id/textView_Id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="ID"
+        android:textAlignment="viewStart"
+        android:textColor="#363636"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_Label1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_GreyArea"
+        app:layout_constraintStart_toStartOf="@+id/imageView_GreyArea" />
+
+    <TextView
+        android:id="@+id/textView_Date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Current Date and Time"
+        android:textAlignment="viewStart"
+        android:textColor="#363636"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_Label2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_GreyArea"
+        app:layout_constraintStart_toStartOf="@+id/imageView_GreyArea" />
+
+    <TextView
+        android:id="@+id/textView_Amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAlignment="viewStart"
+        android:textColor="#363636"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_Label3"
+        app:layout_constraintStart_toStartOf="@+id/guideline6" />
+
+    <TextView
+        android:id="@+id/textView_Status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAlignment="viewStart"
+        android:textColor="#363636"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_Label4"
+        app:layout_constraintStart_toStartOf="@+id/guideline6" />
+
+</android.support.constraint.ConstraintLayout>

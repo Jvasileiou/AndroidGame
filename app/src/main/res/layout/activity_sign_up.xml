@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editText_Fullname"
+        style="@style/editText_style2"
+        android:layout_width="270dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Full name"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <EditText
+        android:id="@+id/editText_Email"
+        style="@style/editText_style2"
+        android:layout_width="270dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editText_Fullname"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Fullname" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        style="@style/editText_style2"
+        android:layout_width="270dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editText_Email"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
+
+    <EditText
+        android:id="@+id/editText_ConfirmPassword"
+        style="@style/editText_style2"
+        android:layout_width="270dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editText_Password"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password" />
+
+    <Button
+        android:id="@+id/button_SignUp"
+        style="@style/button_style"
+        android:layout_width="270dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/editText_ConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editText_ConfirmPassword" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="44dp"
+        android:text="Have an account?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button_SignUp" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#EEFE0D"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/button_SignUp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="160dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31746033"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_Bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_eyeHide1"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_Password"
+        app:layout_constraintEnd_toEndOf="@+id/editText_Password"
+        app:layout_constraintTop_toTopOf="@+id/editText_Password"
+        app:srcCompat="@drawable/eye_hide" />
+
+    <ImageView
+        android:id="@+id/imageView_eyeShow1"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_Password"
+        app:layout_constraintEnd_toEndOf="@+id/editText_Password"
+        app:layout_constraintTop_toTopOf="@+id/editText_Password"
+        app:srcCompat="@drawable/eye_show" />
+
+    <ImageView
+        android:id="@+id/imageView_eyeHide2"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_ConfirmPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText_ConfirmPassword"
+        app:layout_constraintTop_toTopOf="@+id/editText_ConfirmPassword"
+        app:srcCompat="@drawable/eye_hide" />
+
+    <ImageView
+        android:id="@+id/imageView_eyeShow2"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_ConfirmPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText_ConfirmPassword"
+        app:layout_constraintTop_toTopOf="@+id/editText_ConfirmPassword"
+        app:srcCompat="@drawable/eye_show" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">MoneySkills</string>
+    <string name="todo">TODO</string>
+    <string name="loginButton">Login</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="facebook_app_id">184952928815930</string>
+    <string name="fb_login_protocol_scheme">fb184952928815930</string>
+    <string name="CONSUMER_KEY" android:name="com.twitter.sdk.android.CONSUMER_KEY">LbX0lx0m4a4iQkQfx9Hr1zGHx</string>
+    <string name="CONSUMER_SECRET_KEY" android:name="com.twitter.sdk.android.CONSUMER_SECRET">VVmXJUhBF2b3V7jWdJmCS5I9epLj9NFqOaG0oEUyvvo7gyqor6</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_payment_details">PaymentDetails</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

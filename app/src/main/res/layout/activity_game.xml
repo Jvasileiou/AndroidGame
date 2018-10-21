@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView_backRightUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_game_activity_up_right" />
+
+    <ImageView
+        android:id="@+id/imageView_backLeftUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_game_activity_up_left" />
+
+    <TextView
+        android:id="@+id/game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/timer"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_BackHighScore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/high_score" />
+
+    <TextView
+        android:id="@+id/textView_highScore"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/timerPic"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/timer" />
+
+    <TextView
+        android:id="@+id/global_score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/background_totalscore"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="4.5"
+        android:shadowDy="4.5"
+        android:shadowRadius="5.5"
+        android:text="Score:  0"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <ProgressBar
+        android:id="@+id/timer"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="15dp"
+        android:indeterminate="false"
+        android:max="30"
+        android:min="0"
+        android:progress="30"
+        android:progressDrawable="@drawable/ring"
+        app:layout_constraintBottom_toBottomOf="@+id/timerPic"
+        app:layout_constraintEnd_toEndOf="@+id/timerPic"
+        app:layout_constraintStart_toStartOf="@+id/timerPic"
+        app:layout_constraintTop_toTopOf="@+id/timerPic" />
+
+    <LinearLayout
+        android:id="@+id/forFrag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.89" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <ImageView
+        android:id="@+id/imageView_timerFront"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/timerPic"
+        app:layout_constraintEnd_toEndOf="@+id/timerPic"
+        app:layout_constraintStart_toStartOf="@+id/timerPic"
+        app:layout_constraintTop_toTopOf="@+id/timer"
+        app:srcCompat="@drawable/timer_front" />
+
+    <ImageView
+        android:id="@+id/imageView_line"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/forFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView_secondHeart"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_firstHeart"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_thirdHeart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView_firstHeart"
+        app:layout_constraintTop_toTopOf="@+id/imageView_firstHeart"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <ImageView
+        android:id="@+id/imageView_firstHeart"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_line"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_secondHeart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/imageView_backLeftUp"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <ImageView
+        android:id="@+id/imageView_thirdHeart"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_secondHeart"
+        app:layout_constraintEnd_toStartOf="@+id/game_score"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView_secondHeart"
+        app:layout_constraintTop_toTopOf="@+id/imageView_secondHeart"
+        app:srcCompat="@drawable/empty_heart" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <!--
+        <ImageView
+            android:id="@+id/timer"
+            android:layout_width="56dp"
+            android:layout_height="61dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/game_score"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/timer_animation" />
+    -->
+</android.support.constraint.ConstraintLayout>
