@@ -15,7 +15,7 @@ Last but not least, You can see the file "Photos" in order to understand more fo
 
 ### Authors
 
-- John Vasileiou
-
+1. John Vasileiou
+2. Spyros Mantelos
 
 
