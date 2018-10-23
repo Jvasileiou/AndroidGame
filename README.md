@@ -13,8 +13,9 @@ Last but not least, You can see the file "Photos" in order to understand more fo
 + Paypal Sdk - https://developer.paypal.com/docs/integration/mobile/android-integration-guide/
 
 
-## Author     
-John Vasileiou
+### Authors
+
+- John Vasileiou
 
 
 
