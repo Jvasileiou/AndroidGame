@@ -1,4 +1,4 @@
-# Android Game
+# Android Game (In progress)
 
 ## Introduction
 It is and Android App. Four games are included. The first one is an Anagram Quiz.It shows a word and four answers that only one is correct.Secondly , there is a game is called Asceding Numbers. In this game , you need to click on the next asceding number than you are currently in. Also, in the next game , called Odd symbol , you must to find out which symbol is different.The fourth one is just a Memory game which you need to find out the same symbols
