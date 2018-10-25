@@ -51,31 +51,30 @@ public class ProfilActivity extends AppCompatActivity implements View.OnClickLis
     // Get intent
     private Intent intent ;
 
-    private ImageView arrowBack , insertMoney , mImageView_ProfileIcon;
-    private StorageReference profileImageRef;
-    private TextView mTextView_Add , mTextViewName , mTextView_Coins;
-    private ProgressBar mProgressBarProfile;
-    private Uri uriProfileImage;
-    private String profileImageUrl;
+    // Firebase
+    final FirebaseDatabase database = FirebaseDatabase.getInstance();
     private FirebaseAuth mAuth;
     private FirebaseUser user;
 
-
     // Get a reference to our posts
-    final FirebaseDatabase database = FirebaseDatabase.getInstance();
     private int coins ;
     private String fullName;
+    private StorageReference profileImageRef;
+
+    private Uri uriProfileImage;
+    private String profileImageUrl;
+    private ProgressBar mProgressBarProfile;
+    private ImageView arrowBack , insertMoney , mImageView_ProfileIcon;
+    private TextView mTextView_Add , mTextViewName , mTextView_Coins;
 
     // ---------------------- PAY PAL --------------------------------
-
+    private String currency = "EUR" ;
+    private String paypalAmount = "0" ; // , totalAmount = "0";
     private static final int PAYPAL_REQUEST_CODE = 7171 ;
     private static PayPalConfiguration config = new PayPalConfiguration()
             .environment(PayPalConfiguration.ENVIRONMENT_SANDBOX)  // Use Sandbox because we are on test
             .clientId(Config.PAYPAL_CLIENT_ID) ;
 
-    private String paypalAmount = "0" , totalAmount = "0";
-    private String currency = "EUR" ;
-    //
     // -------------------------------------------------------------------
 
     @Override
@@ -88,14 +87,28 @@ public class ProfilActivity extends AppCompatActivity implements View.OnClickLis
 
         setContentView(R.layout.activity_profil);
 
-        mTextView_Coins         = (TextView)    findViewById(R.id.textView_Coins);
-        mTextView_Add           = (TextView)    findViewById(R.id.textView_Add);
-        mTextViewName           = (TextView)    findViewById(R.id.textView_DisplayName);
-        mImageView_ProfileIcon  = (ImageView)   findViewById(R.id.imageView_Profil);
-        insertMoney             = (ImageView)   findViewById(R.id.imageView_insertMoney);
-        mProgressBarProfile     = (ProgressBar) findViewById(R.id.progressBar_Profile);
-        arrowBack               = (ImageView)   findViewById(R.id.imageView_ArrowBack);
+        // Initialize the buttons
+        initializeTheButtons();
 
+        // Retrieve the data of Real-time database
+        retrieveTheData();
+
+        intent = getIntent();
+
+        //-----------------------   PAY PAL Service   ----------------------------
+        Intent paypalIntent = new Intent(this , PayPalService.class) ;
+        paypalIntent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION , config ) ;
+        startService(paypalIntent) ;
+
+
+        // ----------- Click On -----------
+        mTextView_Add.setOnClickListener(this);
+        arrowBack.setOnClickListener(this);
+        insertMoney.setOnClickListener(this);
+    }
+
+    private void retrieveTheData()
+    {
         if(user != null)
         {
 
@@ -132,20 +145,17 @@ public class ProfilActivity extends AppCompatActivity implements View.OnClickLis
                         .into(mImageView_ProfileIcon);
             }
         }
+    }
 
-        intent = getIntent();
-
-        // Start Paypal Service
-
-        Intent paypalIntent = new Intent(this , PayPalService.class) ;
-        paypalIntent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION , config ) ;
-        startService(paypalIntent) ;
-
-        // ----------------------------------
-
-        mTextView_Add.setOnClickListener(this);
-        arrowBack.setOnClickListener(this);
-        insertMoney.setOnClickListener(this);
+    private void initializeTheButtons()
+    {
+        mTextView_Coins         = (TextView)    findViewById(R.id.textView_Coins);
+        mTextView_Add           = (TextView)    findViewById(R.id.textView_Add);
+        mTextViewName           = (TextView)    findViewById(R.id.textView_DisplayName);
+        mImageView_ProfileIcon  = (ImageView)   findViewById(R.id.imageView_Profil);
+        insertMoney             = (ImageView)   findViewById(R.id.imageView_insertMoney);
+        mProgressBarProfile     = (ProgressBar) findViewById(R.id.progressBar_Profile);
+        arrowBack               = (ImageView)   findViewById(R.id.imageView_ArrowBack);
     }
 
     @Override

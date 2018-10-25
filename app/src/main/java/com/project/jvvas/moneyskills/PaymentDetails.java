@@ -24,16 +24,13 @@ public class PaymentDetails extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_details);
 
-
-        txtId      = (TextView) findViewById(R.id.textView_Id) ;
-        txtDate    = (TextView) findViewById(R.id.textView_Date) ;
-        txtAmount  = (TextView) findViewById(R.id.textView_Amount) ;
-        txtStatus  = (TextView) findViewById(R.id.textView_Status) ;
-        buttonOk   = (Button)   findViewById(R.id.button_OK);
+        // Initialize Buttons
+        initializeButtons();
 
         // Get Intent
         Intent intent = getIntent();
 
+        // Taking the payments details
         try{
             JSONObject jsonObject = new JSONObject(intent.getStringExtra("PaymentDetails")) ;
             showDetails(jsonObject.getJSONObject("response") , intent.getStringExtra("PaymentAmount") , intent.getStringExtra("Currency"));
@@ -41,8 +38,17 @@ public class PaymentDetails extends AppCompatActivity implements View.OnClickLis
             e.printStackTrace();
         }
 
+        // Click On
         buttonOk.setOnClickListener(this);
+    }
 
+    private void initializeButtons()
+    {
+        txtId      = (TextView) findViewById(R.id.textView_Id) ;
+        txtDate    = (TextView) findViewById(R.id.textView_Date) ;
+        txtAmount  = (TextView) findViewById(R.id.textView_Amount) ;
+        txtStatus  = (TextView) findViewById(R.id.textView_Status) ;
+        buttonOk   = (Button)   findViewById(R.id.button_OK);
     }
 
     private void showDetails(JSONObject response, String paymentAmount , String currency) {

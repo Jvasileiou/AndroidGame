@@ -17,8 +17,6 @@ MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\jvvas\.gradle\ca
 MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\6a48f4cce281fc5be138ef641f197ffd\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\d9cf14e737d6d114272c0a086a1a71a0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:17:1-39:12
-MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:18:1-27:12
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:18:1-42:12
 MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\4cbeba4522855b3e42a00a8b346380a6\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\1e0c9798f7574a860b67a1d8b248c4fc\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-tagmanager:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.8.0.aar\8693efd6f680337335abed74c12338ba\AndroidManifest.xml:17:1-22:12
@@ -65,7 +63,9 @@ MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\jvvas\.gradle\
 MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\80360baa44285ff76a3c07a9c7120e15\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\07ad7ac6a7b95f6cc6d45888507abe7b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\49776968e4c0caedd4a9d27ee6164ef0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:18:1-27:12
 MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:18:1-42:12
 MERGED from [com.mopub:mopub-sdk:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-4.11.0.aar\50dd40adf6cd37f2f18cf48a5e90e0e3\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mopub:mopub-sdk-banner:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-banner-4.11.0.aar\d33f6d6bb11b3483e81d2d08462c953d\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-rewardedvideo-4.11.0.aar\1d93b752b67bc4ae87319e9fac683d72\AndroidManifest.xml:2:1-13:12
@@ -79,9 +79,9 @@ MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\jvvas\.gradle\cache
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\01b65c844e1f347626e5dd6e4b83634c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\ae2d8f6e9ef1c9fea253fe512544308d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\109c4c3ac670ef2563e889728db1eb7f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:21:1-53:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6521ae7070b084d6ae8cd758fbee3db6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\35c0073913fe46f90ac56373571e4286\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:21:1-53:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\204b954a3c68c36a242e13fff358ef06\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\2c80842f837e0a2635f38ab114a4f50e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\7669c8fb8a16e0e7682145551257fb51\AndroidManifest.xml:17:1-22:12
@@ -203,8 +203,6 @@ MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\jvvas\.gradle\
 		ADDED from C:\Users\jvvas\AndroidStudioProjects\MoneySkills\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\jvvas\AndroidStudioProjects\MoneySkills\app\src\main\AndroidManifest.xml:6:5-79
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:25:5-79
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\c517fc418736d19020ebf67adf429aed\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\c517fc418736d19020ebf67adf429aed\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\50611b7aa8ff32e9b0ab12c23c2438ff\AndroidManifest.xml:24:5-79
@@ -223,6 +221,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\jvvas\
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\6a10181fa1486c15fedd4cad95a348ec\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\bee626a5d015c11d8db37246da7c217d\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\bee626a5d015c11d8db37246da7c217d\AndroidManifest.xml:22:5-79
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:25:5-79
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:25:5-79
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\f8d83f4ebdc911493cf03f05541ed86a\AndroidManifest.xml:9:5-79
 MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\f8d83f4ebdc911493cf03f05541ed86a\AndroidManifest.xml:9:5-79
 	android:name
@@ -249,10 +249,6 @@ MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\jvvas\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\d9cf14e737d6d114272c0a086a1a71a0\AndroidManifest.xml:22:5-30:19
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:22:5-37:19
-MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:25:5-20
-MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:25:5-20
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:27:5-40:19
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:27:5-40:19
 MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\1e0c9798f7574a860b67a1d8b248c4fc\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\1e0c9798f7574a860b67a1d8b248c4fc\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\c517fc418736d19020ebf67adf429aed\AndroidManifest.xml:26:5-45:19
@@ -327,8 +323,12 @@ MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\jvvas\.
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\07ad7ac6a7b95f6cc6d45888507abe7b\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\49776968e4c0caedd4a9d27ee6164ef0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\49776968e4c0caedd4a9d27ee6164ef0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:25:5-20
 MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:27:5-35:19
 MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:27:5-40:19
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:27:5-40:19
 MERGED from [com.mopub:mopub-sdk:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-4.11.0.aar\50dd40adf6cd37f2f18cf48a5e90e0e3\AndroidManifest.xml:11:5-20
 MERGED from [com.mopub:mopub-sdk:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-4.11.0.aar\50dd40adf6cd37f2f18cf48a5e90e0e3\AndroidManifest.xml:11:5-20
 MERGED from [com.mopub:mopub-sdk-banner:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-banner-4.11.0.aar\d33f6d6bb11b3483e81d2d08462c953d\AndroidManifest.xml:11:5-20
@@ -619,10 +619,6 @@ MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\jvvas\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\d9cf14e737d6d114272c0a086a1a71a0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:20:5-44
-MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:23:5-44
-MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:23:5-44
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:23:5-44
-MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:23:5-44
 MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\4cbeba4522855b3e42a00a8b346380a6\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\4cbeba4522855b3e42a00a8b346380a6\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\1e0c9798f7574a860b67a1d8b248c4fc\AndroidManifest.xml:20:5-44
@@ -715,8 +711,12 @@ MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\jvvas\.
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\07ad7ac6a7b95f6cc6d45888507abe7b\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\49776968e4c0caedd4a9d27ee6164ef0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\49776968e4c0caedd4a9d27ee6164ef0\AndroidManifest.xml:20:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\4e0a79cf7d73f71f3aae0b368492252a\AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:23:5-44
 MERGED from [com.mopub:mopub-sdk:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-4.11.0.aar\50dd40adf6cd37f2f18cf48a5e90e0e3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mopub:mopub-sdk:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-4.11.0.aar\50dd40adf6cd37f2f18cf48a5e90e0e3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mopub:mopub-sdk-banner:4.11.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\mopub-sdk-banner-4.11.0.aar\d33f6d6bb11b3483e81d2d08462c953d\AndroidManifest.xml:7:5-9:41
@@ -743,12 +743,12 @@ MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jvvas\.gradle\ca
 MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\ae2d8f6e9ef1c9fea253fe512544308d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\109c4c3ac670ef2563e889728db1eb7f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\109c4c3ac670ef2563e889728db1eb7f\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6521ae7070b084d6ae8cd758fbee3db6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6521ae7070b084d6ae8cd758fbee3db6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\35c0073913fe46f90ac56373571e4286\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\35c0073913fe46f90ac56373571e4286\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.37.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\facebook-core-4.37.0.aar\69875004af978c4b6b095a040dec5d27\AndroidManifest.xml:24:5-26:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\204b954a3c68c36a242e13fff358ef06\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\204b954a3c68c36a242e13fff358ef06\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\2c80842f837e0a2635f38ab114a4f50e\AndroidManifest.xml:20:5-44
@@ -941,30 +941,6 @@ ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gr
 		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\a9599d464b211cc19e7d69a3a47d717b\AndroidManifest.xml:34:13-89
-activity#com.mopub.mobileads.MoPubActivity
-ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:28:9-30:77
-	android:configChanges
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:30:13-74
-	android:name
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:29:13-61
-activity#com.mopub.mobileads.MraidActivity
-ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:31:9-33:77
-	android:configChanges
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:33:13-74
-	android:name
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:32:13-61
-activity#com.mopub.common.MoPubBrowser
-ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:34:9-36:77
-	android:configChanges
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:36:13-74
-	android:name
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:35:13-57
-activity#com.mopub.mobileads.MraidVideoPlayerActivity
-ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:37:9-39:77
-	android:configChanges
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:39:13-74
-	android:name
-		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:38:13-72
 service#com.google.android.gms.tagmanager.TagManagerService
 ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\c517fc418736d19020ebf67adf429aed\AndroidManifest.xml:27:9-30:40
 	android:enabled
@@ -1217,6 +1193,30 @@ ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\cache
 		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:34:13-46
 	android:name
 		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\408f7aae0e8baa1de147ca8e1bc7f55e\AndroidManifest.xml:33:13-75
+activity#com.mopub.mobileads.MoPubActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:28:9-30:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:29:13-61
+activity#com.mopub.mobileads.MraidActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:31:9-33:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:32:13-61
+activity#com.mopub.common.MoPubBrowser
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:34:9-36:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:36:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:35:13-57
+activity#com.mopub.mobileads.MraidVideoPlayerActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:37:9-39:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\twitter-mopub-3.1.1.aar\aaab602da7eea1c9ad44ed23a4880e06\AndroidManifest.xml:38:13-72
 activity#com.paypal.android.sdk.payments.PaymentActivity
 ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\jvvas\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\f8d83f4ebdc911493cf03f05541ed86a\AndroidManifest.xml:13:9-84
 	android:name

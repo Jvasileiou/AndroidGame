@@ -1720,9 +1720,9 @@ id button_0
 id button_1
 id button_2
 id button_3
-id button_LoginPassword
 id button_MultiPlayer
 id button_OK
+id button_ResetPassword
 id button_SignUp
 id button_SinglePlayer
 id button_Training

@@ -24,23 +24,25 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 
-public class SingleMultiPlayer extends AppCompatActivity implements View.OnClickListener{
-
-
-    private Intent intent ;
-    private int coins;
-    private TextView textViewCoins;
-    private Button mLogoutBtn , mTrainingBtn , mSingleBtn , mMultiBtn ;
-    private ImageView mImageViewProfil ;
+public class SingleMultiPlayer extends AppCompatActivity implements View.OnClickListener
+{
     private FirebaseAuth mAuth;
     private FirebaseUser user;
-    private ImageView heart1 , heart2 , heart3 ;
+    private Intent intent ;
+
+    private int coins;
     private int numberOfHearts = 0 ;
+    private TextView textViewCoins;
+    private ImageView mImageViewProfil ;
+    private ImageView heart1 , heart2 , heart3 ;
+    private Button mLogoutBtn , mTrainingBtn , mSingleBtn , mMultiBtn ;
 
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
 
         //Remove Bar
@@ -50,10 +52,47 @@ public class SingleMultiPlayer extends AppCompatActivity implements View.OnClick
 
         setContentView(R.layout.activity_single_multi_player);
 
-        // Initialize Firebase auth;
+        // Initialize Firebase Auth;
         mAuth = FirebaseAuth.getInstance();
         user = mAuth.getCurrentUser();
 
+        // Retrieve the data of Real-time Database
+        retrieveTheData();
+
+        // Initialize buttons
+        initializeTheButtons();
+
+        intent = getIntent();
+
+        // ----------- Click On -----------
+        mImageViewProfil.setOnClickListener(this);
+        mLogoutBtn.setOnClickListener(this);
+        mTrainingBtn.setOnClickListener(this);
+        mSingleBtn.setOnClickListener(this);
+        mMultiBtn.setOnClickListener(this);
+
+        if(!isNetworkAvailable())
+        {
+            Toast.makeText(SingleMultiPlayer.this, "No network connection.", Toast.LENGTH_LONG).show();
+        }
+
+    }
+
+    private void initializeTheButtons()
+    {
+        heart1              = (ImageView) findViewById(R.id.imageView_firstHeart);
+        heart2              = (ImageView) findViewById(R.id.imageView_secondHeart);
+        heart3              = (ImageView) findViewById(R.id.imageView_thirdHeart);
+        mImageViewProfil    = (ImageView) findViewById(R.id.imageView_Profil);
+        mLogoutBtn          = (Button) findViewById(R.id.Logout_btn);
+        mTrainingBtn        = (Button) findViewById(R.id.button_Training);
+        mSingleBtn          = (Button) findViewById(R.id.button_SinglePlayer);
+        mMultiBtn           = (Button) findViewById(R.id.button_MultiPlayer);
+        textViewCoins       = (TextView) findViewById(R.id.textView_Coins) ;
+    }
+
+    private void retrieveTheData()
+    {
         if(user != null)
         {
             // Retrieve the coins of the user from the db
@@ -82,31 +121,6 @@ public class SingleMultiPlayer extends AppCompatActivity implements View.OnClick
                 }
             });
         }
-
-        // Initialize buttons
-        heart1              = (ImageView) findViewById(R.id.imageView_firstHeart);
-        heart2              = (ImageView) findViewById(R.id.imageView_secondHeart);
-        heart3              = (ImageView) findViewById(R.id.imageView_thirdHeart);
-        mImageViewProfil    = (ImageView) findViewById(R.id.imageView_Profil);
-        mLogoutBtn          = (Button) findViewById(R.id.Logout_btn);
-        mTrainingBtn        = (Button) findViewById(R.id.button_Training);
-        mSingleBtn          = (Button) findViewById(R.id.button_SinglePlayer);
-        mMultiBtn           = (Button) findViewById(R.id.button_MultiPlayer);
-        textViewCoins       = (TextView) findViewById(R.id.textView_Coins) ;
-
-        intent = getIntent();
-
-        mImageViewProfil.setOnClickListener(this);
-        mLogoutBtn.setOnClickListener(this);
-        mTrainingBtn.setOnClickListener(this);
-        mSingleBtn.setOnClickListener(this);
-        mMultiBtn.setOnClickListener(this);
-
-        if(!isNetworkAvailable())
-        {
-            Toast.makeText(SingleMultiPlayer.this, "No network connection.", Toast.LENGTH_LONG).show();
-        }
-
     }
 
     private void setTheImagesOfTheHearts() {

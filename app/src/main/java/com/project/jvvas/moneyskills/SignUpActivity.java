@@ -43,35 +43,36 @@ public class SignUpActivity extends LoginActivity implements View.OnClickListene
 
         super.onCreate(savedInstanceState);
 
+        // Set layout
         setContentView(R.layout.activity_sign_up);
 
+        initializeTheButtons();
+
+        mAuth = FirebaseAuth.getInstance();
+
+        // ------------- Click On ----------------
+        imageViewEyeHide1.setOnClickListener(this);
+        imageViewEyeShow1.setOnClickListener(this);
+        imageViewEyeHide2.setOnClickListener(this);
+        imageViewEyeShow2.setOnClickListener(this);
+        findViewById(R.id.button_SignUp).setOnClickListener(this);
+        findViewById(R.id.textViewLogin).setOnClickListener(this);
+    }
+
+    public void initializeTheButtons()
+    {
         imageViewEyeHide1       = (ImageView) findViewById(R.id.imageView_eyeHide1);
         imageViewEyeShow1       = (ImageView) findViewById(R.id.imageView_eyeShow1);
         imageViewEyeHide2       = (ImageView) findViewById(R.id.imageView_eyeHide2);
         imageViewEyeShow2       = (ImageView) findViewById(R.id.imageView_eyeShow2);
-
         imageViewEyeShow1.setVisibility(View.GONE);
         imageViewEyeShow2.setVisibility(View.GONE);
-
         editTextFullname        = (EditText) findViewById(R.id.editText_Fullname);
         editTextEmail           = (EditText) findViewById(R.id.editText_Email);
         editTextPassword        = (EditText) findViewById(R.id.editText_Password);
         editTextConfirmPassword = (EditText) findViewById(R.id.editText_ConfirmPassword);
         progressBar             = (ProgressBar) findViewById(R.id.progress_Bar);
-
-        mAuth = FirebaseAuth.getInstance();
-
-
-        imageViewEyeHide1.setOnClickListener(this);
-        imageViewEyeShow1.setOnClickListener(this);
-        imageViewEyeHide2.setOnClickListener(this);
-        imageViewEyeShow2.setOnClickListener(this);
-
-        findViewById(R.id.button_SignUp).setOnClickListener(this);
-        findViewById(R.id.textViewLogin).setOnClickListener(this);
-
     }
-
 
     private void registerUser(){
 

@@ -5191,9 +5191,9 @@ public final class R {
     public static final int button_1=0x7f08007d;
     public static final int button_2=0x7f08007e;
     public static final int button_3=0x7f08007f;
-    public static final int button_LoginPassword=0x7f080080;
-    public static final int button_MultiPlayer=0x7f080081;
-    public static final int button_OK=0x7f080082;
+    public static final int button_MultiPlayer=0x7f080080;
+    public static final int button_OK=0x7f080081;
+    public static final int button_ResetPassword=0x7f080082;
     public static final int button_SignUp=0x7f080083;
     public static final int button_SinglePlayer=0x7f080084;
     public static final int button_Training=0x7f080085;

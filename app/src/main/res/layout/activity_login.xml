@@ -45,7 +45,7 @@
         android:layout_marginBottom="54dp"
         android:hint="password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button_LoginPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button_ResetPassword"
         app:layout_constraintEnd_toEndOf="@+id/editText_RegisteredEmail"
         app:layout_constraintTop_toBottomOf="@+id/editText_RegisteredEmail" />
 
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="@+id/editText_Password" />
 
     <Button
-        android:id="@+id/button_LoginPassword"
+        android:id="@+id/button_ResetPassword"
         style="@style/button_style"
         android:layout_width="270dp"
         android:layout_marginBottom="64dp"
@@ -105,7 +105,7 @@
         android:textColor="#EEFE0D"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="@+id/button_LoginPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/button_ResetPassword" />
 
     <ProgressBar
         android:id="@+id/progress_Bar"
