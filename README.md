@@ -9,8 +9,8 @@ Last but not least, You can see the file "Photos" in order to understand more fo
 ## Libraries this app uses:
 + Firebase - https://firebase.google.com/
 + Multiplayer(firebase) - https://developers.google.com/games/services/android/realtimeMultiplayer
-+ Glide Image Loading - https://github.com/bumptech/glide
 + Paypal Sdk - https://developer.paypal.com/docs/integration/mobile/android-integration-guide/
++ Glide Image Loading - https://github.com/bumptech/glide
 
 
 ### Authors
